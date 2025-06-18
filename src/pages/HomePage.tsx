@@ -49,6 +49,12 @@ const HomePage: React.FC = () => {
             <li style={{ marginBottom: '0.5rem', color: '#6c757d' }}>
               🔄 状态和生命周期
             </li>
+            <li style={{ marginBottom: '0.5rem', color: '#6c757d' }}>
+              🖱️ 事件处理
+            </li>
+            <li style={{ marginBottom: '0.5rem', color: '#6c757d' }}>
+              🔀 条件渲染
+            </li>
           </ul>
         </div>
 
@@ -62,7 +68,7 @@ const HomePage: React.FC = () => {
           <h3 style={{ color: '#ffc107', marginBottom: '1rem' }}>🚧 学习中</h3>
           <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
             <li style={{ marginBottom: '0.5rem', color: '#6c757d' }}>
-              🖱️ 事件处理
+              📋 列表渲染
             </li>
           </ul>
         </div>
@@ -107,7 +113,7 @@ const HomePage: React.FC = () => {
           准备好开始你的 React 学习之旅了吗？点击上方导航栏中的任何部分开始学习！
         </p>
         <Link 
-          to="/events" 
+          to="/lists" 
           style={{
             display: 'inline-block',
             padding: '1rem 2rem',
@@ -126,7 +132,7 @@ const HomePage: React.FC = () => {
             e.currentTarget.style.backgroundColor = '#2196f3';
           }}
         >
-          继续学习：事件处理 →
+          继续学习：列表渲染 →
         </Link>
       </div>
     </div>
